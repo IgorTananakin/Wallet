@@ -1,0 +1,5 @@
+.ui-datepicker .ui-datepicker-title {
+  display: flex; }
+.ui-datepicker a.ui-datepicker-prev,
+.ui-datepicker a.ui-datepicker-next {
+  top: 10px; }

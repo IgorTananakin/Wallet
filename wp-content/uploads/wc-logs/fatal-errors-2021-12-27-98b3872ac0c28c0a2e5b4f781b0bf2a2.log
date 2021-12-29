@@ -1,0 +1,555 @@
+2021-12-27T07:48:12+00:00 CRITICAL syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 4
+
+2021-12-27T07:54:57+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 7
+
+2021-12-27T07:54:59+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 7
+
+2021-12-27T07:55:14+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 7
+
+2021-12-27T07:55:16+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 7
+
+2021-12-27T07:55:20+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 7
+
+2021-12-27T08:36:22+00:00 CRITICAL syntax error, unexpected ';' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 50
+
+2021-12-27T08:39:23+00:00 CRITICAL syntax error, unexpected ''/var/www/igorr/data/www/igorr' (T_ENCAPSED_AND_WHITESPACE) в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 50
+
+2021-12-27T08:46:28+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 54
+
+2021-12-27T08:47:45+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 53
+
+2021-12-27T08:47:48+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 53
+
+2021-12-27T08:48:27+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 53
+
+2021-12-27T08:48:29+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 53
+
+2021-12-27T08:48:29+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 53
+
+2021-12-27T08:50:31+00:00 CRITICAL syntax error, unexpected '$inline_execute_output' (T_VARIABLE) в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 55
+
+2021-12-27T08:53:09+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(51): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:53:12+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(51): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:54:13+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:54:17+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:54:32+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:56:50+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(17): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:56:52+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(17): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:57:33+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(17): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:58:33+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T08:59:26+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/form-pay.php:20
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_ в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/form-pay.php на строке 20
+
+2021-12-27T08:59:30+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/form-pay.php:20
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /v в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/form-pay.php на строке 20
+
+2021-12-27T08:59:34+00:00 CRITICAL Uncaught Error: Call to a member function get_order_item_totals() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/form-pay.php:20
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(18): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /v в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/form-pay.php на строке 20
+
+2021-12-27T09:00:16+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:00:19+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:00:34+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:02:35+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:03:35+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:05:17+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:05:20+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:07:24+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:07:28+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:07:31+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:07:36+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:08:16+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(21): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:08:22+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(22): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:08:25+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(22): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:11:38+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shortcode_Checkout::method() in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code:20
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#1 [internal function]: exec_php(Array)
+#2 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_content', '<!-- wp:shortco...')
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-auto в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 20
+
+2021-12-27T09:12:04+00:00 CRITICAL Uncaught Error: Call to private method WC_Shortcode_Checkout::order_pay() from context '' in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code:20
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#1 [internal function]: exec_php(Array)
+#2 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_content', '<!-- wp:shortco...')
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/clas в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 20
+
+2021-12-27T09:12:08+00:00 CRITICAL Uncaught Error: Call to private method WC_Shortcode_Checkout::order_pay() from context '' in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code:20
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#1 [internal function]: exec_php(Array)
+#2 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/themes/twentytwentyone/template-parts/content/content-page.ph в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 20
+
+2021-12-27T09:17:39+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:17:41+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:17:43+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:18:42+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php(603): apply_filters('the_con в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:28:19+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:28:31+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:28:35+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:28:58+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:29:01+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:30:06+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:30:16+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:30:18+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:30:19+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:30:19+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:30:50+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:32:23+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#7 /var/www в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T09:38:44+00:00 CRITICAL syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING) в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code на строке 5
+
+2021-12-27T09:46:58+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:47:07+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:47:28+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:47:32+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:47:37+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:47:44+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:48:07+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:48:10+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:48:12+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:49:02+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:49:03+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:49:23+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:54:53+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:54:56+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:55:08+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:55:52+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:56:07+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T09:59:55+00:00 CRITICAL syntax error, unexpected ')' в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 15
+
+2021-12-27T10:00:09+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php:26
+Stack trace:
+#0 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42) : eval()'d code(25): require_once()
+#1 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(42): eval()
+#2 [internal function]: exec_php(Array)
+#3 /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/main.php(46): preg_replace_callback('/\\[exec\\]((.|\\n...', 'exec_php', '<!-- wp:shortco...')
+#4 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/class-wp-hook.php(303): inline_php('<!-- wp:shortco...')
+#5 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/plugin.php(189): WP_Hook->apply_filters('<!-- wp:shortco...', Array)
+#6 /var/www/igorr/data/www/igorr3.ddns.net/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1792): apply_filters('the_conten в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/templates/checkout/payment-method.php на строке 26
+
+2021-12-27T10:10:57+00:00 CRITICAL require_once(): Failed opening required '/var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/wooCommerce/wooCommerce.php' (include_path='.:/opt/php74/share/pear') в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 5
+
+2021-12-27T10:12:09+00:00 CRITICAL require_once(): Failed opening required '/var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/woocommerce/wooCommerce.php' (include_path='.:/opt/php74/share/pear') в /var/www/igorr/data/www/igorr3.ddns.net/wp-content/plugins/FS_WooCommerce_Wallet/test.php на строке 5
+
